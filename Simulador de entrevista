@@ -1,0 +1,73 @@
+# 📄 **Simulação de Entrevista – Desenvolvedor Back-end Pleno (PHP/Laravel)**
+
+## **Pergunta 1 — Experiência com PHP/Laravel**
+
+**Pergunta:**  
+“Você pode me contar sobre sua experiência com PHP e Laravel?”
+
+**Resposta:**  
+Você explicou que **participou do projeto SIG**, um sistema de gestão para uma **distribuidora farmacêutica**. Nesse projeto trabalhou com:
+
+*   análise de vendas (vendedores e televendas)
+*   controle de estoque
+*   gestão de fornecedores  
+    Esse projeto permitiu atuar em regras de negócio reais e complexas.
+
+***
+
+## **Pergunta 2 — Arquitetura no Laravel**
+
+**Pergunta:**  
+“Como você organiza a arquitetura de uma funcionalidade para manter o código limpo e sustentável?"
+
+**Resposta:**  
+Você citou que utiliza camadas como:
+
+*   **Request**
+*   **Response**
+*   **Controller**
+*   **Service**
+*   **Repository**
+*   **Model**
+
+Esse padrão demonstra separação clara entre validação, fluxo de controle, lógica de negócio e acesso a dados.
+
+***
+
+## **Pergunta 3 — Evitando N+1 no Eloquent**
+
+**Pergunta:**  
+“Como evitar N+1 no Eloquent?”
+
+**Resposta:**  
+Você respondeu pedindo a explicação — e então conversamos sobre:
+
+*   uso de **eager loading** (`with`, `load`)
+*   uso de `withCount`, `withSum`
+*   evitar acesso a relações dentro de loops
+*   quando usar **JOIN**
+*   selecionar apenas colunas necessárias
+*   paginação e chunk para grandes volumes
+*   cache para consultas repetitivas
+
+***
+
+## **Pergunta 4 — Transações e Consistência no Pedido**
+
+**Pergunta:**  
+“No processo de emitir um pedido e baixar estoque, como garantir consistência?”
+
+**Resposta:**  
+Você respondeu que:
+
+*   **transações são essenciais**, pois muitas operações acontecem juntas
+*   durante o pedido é necessário:
+    *   alterar estoque
+    *   alterar crédito do cliente
+    *   atualizar estatísticas do vendedor
+*   para concorrência, mencionou **fila de prioridade** para garantir ordem de execução
+
+Também discutimos boas práticas como `DB::transaction` e uso de `lockForUpdate`.
+
+***
+
