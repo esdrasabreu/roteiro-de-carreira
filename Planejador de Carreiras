@@ -1,0 +1,156 @@
+## 🧩 VISÃO DO DIA A DIA
+
+Como é o trabalho de um(a) **Product Manager (foco em IA e produto técnico)**:
+
+*   Conduzir descoberta de problemas (entrevistas, mapeamento de dores, JTBD) e priorização de oportunidades.
+*   Especificar requisitos claros (PRDs), critérios de aceite e métricas de sucesso (North Star, KPIs).
+*   Orquestrar times multidisciplinares (engenharia, dados, design) e stakeholders (negócio, jurídico, CX).
+*   Definir hipóteses, rodar experimentos (A/B, testes controlados) e validar aprendizado.
+*   Para IA: definir casos de uso, avaliar viabilidade técnica, riscos (segurança/sesgos), custos (tokens/infra) e ROI; acompanhar qualidade de modelos (win rate, alucinação, latência).
+
+***
+
+## 🧠 MAPA DE SKILLS
+
+**CORE SKILLS (essenciais):**
+
+*   **Descoberta e Prioritização** (JTBD, entrevistas, mapeamento de valor, RICE/WSJF).
+*   **Escrita de PRD e Especificações** (user stories, fluxos, critérios de aceite).
+*   **Métricas de Produto** (North Star, funil AARRR, retenção, experimentação).
+*   **Comunicação e Liderança** (alinhamento com stakeholders, storytelling, negociação).
+*   **Fundamentos de IA aplicada a produto** (casos de uso, avaliação de qualidade, riscos/responsabilidade).
+
+**NICE-TO-HAVE (complementares):**
+
+*   **Noções de Backend/APIs** (REST/GraphQL, autenticação, limites/latência).
+*   **Lifecycle de Modelos** (prompt design, avaliação, monitoramento, noções de MLOps).
+
+**FERRAMENTAS E TECNOLOGIAS:**
+
+*   **Produto**: Jira/YouTrack, Notion/Confluence, Figma (protótipos), Amplitude/GA4/Looker.
+*   **Dados & IA**: SQL básico, Python para análise rápida, notebooks, plataformas LLM (OpenAI/Azure OpenAI), Postman/Insomnia.
+*   **Colaboração**: Miro, Slack/Teams, GitHub (para ler issues/PRs), Trello.
+
+***
+
+## 📅 ROADMAP DE 90 DIAS
+
+**ADAPTADO PARA: 10 horas/semana**
+
+### MÊS 1 - FUNDAMENTOS
+
+**SEMANA 1-2:**
+
+*   Consolidar frameworks de **descoberta** (JTBD, mapa de oportunidade) e **priorização** (RICE/WSJF).
+*   Reforçar **métricas de produto** (North Star, métricas de ativação/retensão, cohort).
+    *   *Entrega:* 1 canvas de problema + 1 matriz RICE aplicada a um caso real do seu contexto.
+
+**SEMANA 3-4:**
+
+*   **Escrita de PRD** (problema, objetivos, hipóteses, escopo, não-escopo, KPIs, riscos).
+*   **Fundamentos de IA em produto**: quando usar LLMs, custos/tokens, latência, guardrails, privacidade.
+    *   *Entrega:* PRD “v1” para um recurso de IA + checklist de riscos (alucinação, viés, PII).
+
+### MÊS 2 - PRÁTICA
+
+**SEMANA 5-6:**
+
+*   **Experimentação**: desenho de testes A/B, plano de rollout, definição de sucesso (p-valor, power básico).
+*   **Métricas na prática**: criar 1 dashboard simples (Amplitude/GA4) ou simular com CSV + Python/Excel.
+    *   *Entrega:* Plano de experimento + dashboard (ou notebook) com 3 KPIs.
+
+**SEMANA 7-8:**
+
+*   **Interface com Engenharia**: requisitos técnicos, APIs, contratos, SLAs, observabilidade.
+*   **IA aplicada**: prompt design, avaliação de qualidade (taxa de acerto/alucinação), logging, fallback.
+    *   *Entrega:* Especificação técnica (alto nível) + catálogo de prompts (com exemplos e métricas).
+
+### MÊS 3 - PORTFÓLIO E PREPARAÇÃO
+
+**SEMANA 9-10:**
+
+*   **Projeto de Portfólio** (MVP de um recurso com IA): discovery → PRD → experimento → análise.
+*   **Go-to-Market**: mensagem de valor, pricing simples, plano de lançamento e feedback loop.
+    *   *Entrega:* Case completo (deck) + gravação de 5 min apresentando o produto.
+
+**SEMANA 11-12:**
+
+*   **Entrevistas**: treino de perguntas comportamentais (STAR) e de produto (priorização, métricas).
+*   **Refino do portfólio**: organizar no GitHub/Notion, anexar PRD, dashboards e lições aprendidas.
+    *   *Entrega:* Portfólio publicado + roteiro de 3 histórias (impacto, trade-offs, falhas & aprendizados).
+
+> **Carga extra (opcional, se você tiver >12h/semana):** experimentar um **mini-PoC técnico** com backend simples (Python/FastAPI) chamando uma API de LLM e medindo latência/custo.
+
+***
+
+## 🚀 PROJETO DE PORTFÓLIO
+
+**PROJETO: “Assistente de Atendimento Inteligente para FAQs do Banco”**
+
+**O QUE FAZER:**  
+Definir, especificar e validar um recurso de **assistente baseado em LLM** que responde perguntas de clientes sobre produtos (ex.: tarifas, limites, horários). Abrange discovery, PRD, critérios de segurança (evitar respostas erradas), plano de experimento e análise de impacto (CSAT, redução de TMA, taxa de transferência para humano).
+
+**ENTREGÁVEIS:**
+
+*   **PRD completo** (objetivos, KPIs, escopo/não-escopo, riscos, métricas de qualidade do LLM).
+*   **Catálogo de prompts** com exemplos positivos/negativos e métricas de avaliação.
+*   **Plano de Experimento** (A/B ou pilot por segmento), **dashboard** de resultados e **post-mortem**.
+
+**CRITÉRIOS DE ACEITAÇÃO:**
+
+*   KPIs definidos e mensuráveis (ex.: -20% TMA, +10% CSAT, ≤5% alucinação em amostra).
+*   PRD claro, com *não-escopos* e plano de fallback (transferência para humano).
+*   Evidências de validação: entrevistas, protótipo de alta fidelidade ou PoC técnica e análise de dados.
+
+**DICA:**  
+Colete **FAQ real** (anônimo) e **rotule 30–50 perguntas** para avaliar o LLM (baseline). Use amostras estratificadas (simples e complexas). Defina **guardrails** (ex.: “se confiança < limiar, sugerir contato humano”). Documente custos estimados (tokens) e **SLA de resposta**.
+
+***
+
+## 💬 ROTEIRO DE ENTREVISTAS
+
+**PERGUNTA 1: Conte um produto que você melhorou e qual impacto trouxe.**  
+**COMO RESPONDER (STAR):**
+
+*   *Situação:* “No app X, taxa de abandono no onboarding era 45%.”
+*   *Tarefa:* “Reduzir abandono sem aumentar fraude.”
+*   *Ação:* “Mapeei fricções, testei 2 variações (documento tardio vs. progressivo), coordenei eng/UX.”
+*   *Resultado:* “Abandono caiu para 28% (+17pp), mantendo fraude estável (<0,3%). Dashboard público no time.”
+
+**PERGUNTA 2: Como você prioriza um backlog cheio de demandas urgentes?**  
+**COMO RESPONDER:**
+
+*   Conectar à **estratégia** e **North Star**.
+*   Usar **RICE/WSJF**, evidenciar **trade-offs** e **capacidades do time**.
+*   Citar exemplo real de *não* priorização e como você comunicou isso aos stakeholders.
+
+**PERGUNTA 3: Quando faz sentido usar IA (LLM) em um produto?**  
+**COMO RESPONDER:**
+
+*   Quando há **ambiguidade linguística**, necessidade de **recuperação semântica** e **ganho de eficiência**.
+*   Avaliar **qualidade** (alucinação), **custo/latência**, **compliance** e **valor para o usuário**.
+*   Exemplo: “FAQ inteligente com fallback, medindo CSAT e deflexão de chamadas.”
+
+**PERGUNTA 4: Descreva um experimento que você conduziu e como decidiu o vencedor.**  
+**COMO RESPONDER:**
+
+*   Hipótese → métricas primárias/secundárias → desenho (A/B) → tamanho de amostra básico → resultados → decisão.
+*   Cite **aprendizado**, não só o “vencedor”.
+
+**PERGUNTA 5: Como você lida com divergências entre negócio e engenharia?**  
+**COMO RESPONDER:**
+
+*   Tornar **explícitos os constraints** (prazo, risco, dívida técnica).
+*   Oferecer **alternativas** (MVP vs. solução completa).
+*   Usar **dados** e **impacto no usuário** como árbitro; documentar decisões no PRD/post-mortem.
+
+***
+
+## 🎓 TRILHA DIO RECOMENDADA
+
+**TRILHA: “Formação Product Manager” + complemento “Fundamentos de IA para Devs/Produto” (na DIO)**
+
+**POR QUE ESSA TRILHA:**
+
+*   A formação de **Product Manager** cobre **descoberta, métricas, PRD e backlog**, alinhada ao plano (Mês 1-2).
+*   O complemento de **IA** dá base prática para **casos de uso com LLMs**, **prompt design** e integração via API (útil para o projeto e entrevistas).
