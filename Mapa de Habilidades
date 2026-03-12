@@ -1,0 +1,104 @@
+
+# Mapa de Habilidades DIO — Automação de Processos com n8n
+
+> **Autor:** Esdras Abreu Silva  
+> **Foco de monetização:** Automação de processos para pequenas e médias empresas (PMEs), com **assistente/secretaria 24h** para escritórios usando **n8n** + IA.
+
+---
+
+## Etapa 1 — Inventário de Habilidades
+
+**O que as pessoas costumam elogiar em você**
+- Organização, visão de processos ponta a ponta e capacidade de simplificar rotinas.
+- Didática para traduzir termos técnicos para a linguagem do negócio.
+- Confiabilidade e entrega dentro do prazo.
+
+**Em que tipo de tarefa você se sente confiante**
+- Mapear fluxos (as-is/to-be), documentar requisitos e implantar automações low-code/no-code.
+- Integrar SaaS (WhatsApp/Telegram/Email/CRM/Planilhas/Drive/ERP) via n8n e webhooks.
+- Construir chat/secretaria 24h com LLMs (OpenAI/Azure, Cohere, etc.) + base de conhecimento.
+
+**Que tipo de ajuda você costuma oferecer**
+- Redução de trabalho manual: captura de leads, triagem de chamados, follow-up automático e agendamentos.
+- Padronização de atendimento e relatórios diários/semanais para gestores.
+- Monitoramento de filas e alertas pró-ativos.
+
+**Atividades que faz com facilidade (enquanto outros têm dificuldade)**
+- Orquestração de integrações entre múltiplas ferramentas.
+- Criação de playbooks e templates reutilizáveis.
+- Medição de impacto (horas economizadas, SLA, CAC/LTV impactado).
+
+**Conteúdos que consome com frequência**
+- Automação (n8n, Zapier-like), IA aplicada a negócios, integrações de APIs, gestão de processos (BPM), governança de dados.
+
+---
+
+## Etapa 2 — Cruzamento com Necessidades do Mercado
+
+**Existe demanda? Alguém pagaria por isso?**
+- Sim. PMEs e escritórios (advocacia, contabilidade, clínicas, imobiliárias) precisam de **atendimento 24h**, captura de leads, triagem, follow-up e integração com CRMs/planilhas.
+
+**Posso oferecer como serviço ou produto?**
+- **Serviço:** implantação ponta a ponta + suporte mensal.
+- **Produto:** pacotes de "secretaria 24h" com templates de fluxos n8n e base de conhecimento plug-and-play.
+
+**Resolve problema comum?**
+- Reduz tempo de resposta, perda de leads e retrabalho; padroniza atendimento e gera métricas.
+
+---
+
+## Etapa 3 — Caminhos de Monetização
+
+### Propostas de Valor (pacotes)
+- **Starter (MVP):** captura de leads + respostas frequentes + handoff para humano (WhatsApp/Email).  
+  *Entrega*: 1 fluxo n8n + base de 30 FAQs.  
+  *Prazo*: 1 semana.  
+  *Indicador*: tempo de resposta < 1 min.
+- **Growth:** + agendamento (Google Calendar/Calendly), CRM/planilha, relatórios semanais.  
+  *Entrega*: 3–5 fluxos n8n, 60–100 FAQs, dashboards básicos.  
+  *Prazo*: 2–3 semanas.
+- **Scale:** + classificação por intenção, priorização de filas, métricas SLA/CX, automações de backoffice.  
+  *Entrega*: 6–10 fluxos, analytics, monitoramento e alertas.  
+  *Prazo*: 4+ semanas.
+
+> **Modelo de preço sugerido**  
+> Setup (fixo por pacote) + mensalidade de suporte (SLA, ajustes menores, monitoramento).  
+> Ex.: Starter R$X setup + R$Y/mês; Growth R$2X + R$2Y; Scale sob proposta.
+
+### Checklist de Caminhos
+1. **Oferecer serviços em plataformas**  
+   Workana, 99Freelas, Fiverr, GetNinjas — crie anúncios com: problema-alvo, antes/depois, prazos, depoimentos.
+2. **Criar conteúdo gratuito para atrair clientes**  
+   Instagram, TikTok, LinkedIn, YouTube — tutoriais curtos de 30–60s mostrando um ganho real (ex.: captura de lead → CRM).
+3. **Montar um portfólio simples**  
+   GitHub com: README de cada projeto, diagrama do fluxo, print do n8n, métricas antes/depois, vídeo demo.
+4. **Fazer parcerias locais**  
+   Conectar com agências de marketing, contabilidades e assessorias — comissionamento por indicação.
+5. **Dar aulas/mentorias**  
+   Workshops práticos (2–4h) e mentorias 1:1 para donos de pequenos negócios.
+
+---
+
+## Roadmap (90 dias)
+- **Semanas 1–2**: definir 2 nichos (ex.: advocacia e contabilidade) e criar 1 template de secretaria 24h por nicho.
+- **Semanas 3–4**: gravar 4 vídeos curtos (prova de valor); publicar 2 estudos de caso (mesmo que simulados, informar que são exemplos).
+- **Mês 2**: vender 3 projetos Starter; medir tempo de resposta, taxa de conversão de lead em contato.
+- **Mês 3**: upsell para Growth; iniciar parcerias; lançar workshop prático.
+
+---
+
+## KPIs sugeridos
+- Tempo médio de resposta (meta < 60s).
+- % de leads capturados fora do horário comercial.
+- Conversão lead → agendamento/contato humano.
+- Horas manuais economizadas/mês.
+- NPS de atendimento automatizado.
+
+---
+
+## Stack Técnica (base)
+- **n8n**: orquestração de fluxos, webhooks, agendamento.
+- **LLM/IA**: provedor (OpenAI/Azure/Cohere) + base de conhecimento (arquivos/FAQ/Notion/Google Drive).
+- **Canais**: WhatsApp/Telegram/Email/Formulários; CRM/Planilhas.
+- **Observabilidade**: logs do n8n, alertas por erro, dashboard simples (ex.: Google Sheets + Looker Studio).
+---
